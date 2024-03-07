@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "one-billion-rows-challenge"
+version = "0.1.0"
+description = ""
+authors = ["Lorenzo Uriel <lorenzo.uriel@geosiga.com.br>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+tqdm = "^4.66.2"
+taskipy = "^1.12.2"
+dask = "^2024.2.1"
+polars = "^0.20.13"
+pandas = "^2.2.1"
+duckdb = "^0.10.0"
+modin = "^0.27.0"
+dask-expr = "^0.5.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
