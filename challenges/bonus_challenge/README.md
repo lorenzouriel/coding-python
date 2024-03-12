@@ -3,7 +3,7 @@ To resolve the identified bugs — handling invalid inputs that cannot be conver
 
 This involves adding additional checks after the conversion is attempted to ensure the values ​​are positive.
 
-![image](/challenges/try_except_challenge.py/pics/challenge_pics.png)
+![image](/challenges/bonus_challenge/pics/challenge_pics.png)
 
 ## Thanks and Recommendation
 
