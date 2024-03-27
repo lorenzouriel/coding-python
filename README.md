@@ -21,6 +21,7 @@ If you're interested in joining this collaborative effort, **feel free to fork t
 | [00-the-complete-setup-python-project](/00-the-complete-setup-python-project/README.md) | A huge review of how to get started any python project |
 | [challenges](/challenges/) | Some challenges that I faced while learning |
 | [execises](/exercises/) | Some exercises that I faced while learning |
+| [imgs](/imgs/) | All the images used to help explain the topics |
 | [libs](/libs/) | Simple review and code example of the principal libs that I use daily |
 | [oop](/oop/) | OOP is importante for data guys, that's why I have this folder |
 | [topics](/topics/) | I created this folder from some notes I had in Evernote, Medium and notebooks. Imagine an ETL of knowledge bases in one place. |
