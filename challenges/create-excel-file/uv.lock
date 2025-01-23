@@ -1,0 +1,22 @@
+version = 1
+requires-python = ">=3.12"
+
+[[package]]
+name = "create-excel-file"
+version = "0.1.0"
+source = { virtual = "." }
+dependencies = [
+    { name = "xlsxwriter" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "xlsxwriter", specifier = ">=3.2.1" }]
+
+[[package]]
+name = "xlsxwriter"
+version = "3.2.1"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/48/4f/108b0bada5cfcc47c24ea6181f4c563fbafef50bcc0054089c256b2ae578/XlsxWriter-3.2.1.tar.gz", hash = "sha256:97618759cb264fb6a93397f660cca156ffa9561743b1823dafb60dc4474e1902", size = 202868 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/bc/30/040af902cb8a9909d320779d8467aa7590bb91477767fd2b7551f4d91bb5/XlsxWriter-3.2.1-py3-none-any.whl", hash = "sha256:7e8f7c60b7a1660ef791d46ab5de78469cb978b991ca841af61f5832d2f9f4fe", size = 162778 },
+]
