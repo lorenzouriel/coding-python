@@ -20,7 +20,7 @@ def test_criar_produtos():
             "tags": ["tag1", "tag2"]}
     )
     assert response.status_code == 200
-    assert response.json()["nome"] == "Produtos A"
+    assert response.json()["nome"] == "Produto A"
 
 def test_listar_produtos():
     response = client.get("/produtos/")
