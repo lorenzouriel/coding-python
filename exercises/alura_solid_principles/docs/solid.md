@@ -148,3 +148,23 @@ class Servico:
 | **L**     | Substitutos devem se comportar como a superclasse |
 | **I**     | Evite interfaces grandes e genéricas              |
 | **D**     | Dependa de abstrações, não de implementações      |
+
+---
+
+## Alura
+### S - Princípio da Responsabilidade Única
+Aplicamos este princípio ao garantir que cada classe tivesse uma única responsabilidade. Isso nos permitiu modularizar o código, tornando-o mais legível e fácil de testar. Por exemplo, ao criar classes para diferentes tipos de pedidos, garantimos que cada uma delas tivesse uma função clara e específica.
+
+### O - Princípio Aberto-Fechado
+Implementamos o princípio ao projetar o sistema de forma que ele fosse aberto para extensão, mas fechado para modificação. Utilizamos herança e interfaces para permitir que novas funcionalidades fossem adicionadas sem alterar o código existente. Por exemplo, ao adicionar novos tipos de pagamento, fazemos isso estendendo classes base sem modificar diretamente o código original.
+
+### L - Princípio da Substituição de Liskov
+Aplicamos esse princípio ao garantir que as subclasses pudessem ser usadas no lugar de suas classes base sem causar erros. Ao implementar a classe base para pagamentos, suas subclasses (como Pagamento com Cartão e Pagamento com Boleto) foram desenhadas para serem intercambiáveis, mantendo a integridade do sistema.
+
+### I - Princípio da Segregação de Interface
+Com esse princípio, garantimos que as interfaces fossem específicas e não forçasse implementações desnecessárias. Por exemplo, ao criar diferentes tipos de notificações, as interfaces de envio de notificações foram separadas para que cada tipo (SMS, Email) implementasse apenas o que era necessário para sua funcionalidade.
+
+### D - Princípio da Inversão de Dependência
+Esse princípio foi aplicado ao garantir que as classes dependessem de abstrações, e não de implementações concretas. Ao utilizar injeção de dependência, as classes de pagamento, por exemplo, não estavam diretamente acopladas às suas implementações, permitindo flexibilidade e facilitando a manutenção e os testes.
+
+Ao aplicar os princípios SOLID no seu projeto, garantimos um código mais modular, facilitando a manutenção, expansão e entendimento da aplicação. Isso reduz o acoplamento entre as partes do sistema, tornando-o mais resiliente a mudanças, além de incentivar a reutilização de componentes. Assim, construímos uma base sólida para o crescimento do nosso projeto e na melhoria contínua do fluxo de trabalho.
