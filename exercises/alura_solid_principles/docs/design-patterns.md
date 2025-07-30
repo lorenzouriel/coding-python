@@ -1,3 +1,5 @@
+[LEIA MAIS AQUI](https://www.alura.com.br/artigos/design-patterns-python?utm_source=gnarus&utm_medium=timeline)
+
 ## 1. Factory Method
 ### Objetivo
 Encapsular a criação de objetos, permitindo que subclasses decidam qual classe instanciar. Isso reduz o acoplamento entre o código cliente e as classes concretas.
